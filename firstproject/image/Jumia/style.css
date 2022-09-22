@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(180, 178, 178);
+}
+
+.header{
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.aa {
+    margin-left: 70px;
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bb{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 65%;
+}
+
+.box {
+    margin: 0 20px;
+}
+
+.body{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50px;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigger1 {
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.bigger{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigger2 {
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biggest{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}

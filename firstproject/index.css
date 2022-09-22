@@ -1,0 +1,45 @@
+.header{
+height: 50px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+ 
+.logo{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    font-size: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.nav{
+    height: 50px;
+    width: 1000px;
+    background-color: lightgrey ;
+    display: flex;
+    justify-content: center;
+}
+
+.navs{
+    height: 50px;
+    width: 1000px;
+    background-color: silver ;
+    display: flex;
+    
+    
+}
+
+
+.small{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+
+
+

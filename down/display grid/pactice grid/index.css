@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 80vh 70px;
+    
+}
+
+.header{
+    background-color: red;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(9, 200px);
+    gap: 10px;
+
+}
+.items{
+    background-color: saddlebrown;
+}
+/* .footer{
+    background-color: green;
+} */
+.items:nth-of-type(1){
+    grid-row: span 2;
+}
+.items:nth-of-type(4){
+    grid-row: span 2;
+}
+.items:nth-of-type(3){
+    grid-row: span2;
+}
+img{width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

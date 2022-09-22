@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 8px;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 95%;
+    height: 100%;
+    color: grey;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bigBox{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height:100%;
+    width: ;
+    
+}
+.navLink{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.six{
+    padding-left: 330px;
+}
+.seven{
+    height: 100%;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.wrapperTwo{
+    width: 80%;
+    height:100% ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bodyOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    font-size: 70px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:  -1px;
+}
+.point{
+    width: 400px;
+    padding-bottom: -3px;
+    font-size: 20px;
+    color: grey;
+}
+.click{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics img{
+    width: 500PX;
+    height: 600PX;
+}
+
+.under  img {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+

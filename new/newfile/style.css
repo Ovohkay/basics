@@ -1,0 +1,124 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+button{
+    margin-left: 95%;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    margin-top: 90px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* margin: 20px; */
+    /* padding-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    width: 800px;
+    height: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+h5{
+  width: 680px;
+  height: 30px;
+  font-size: 17px;
+  padding-left:20px;
+  margin-left: 80px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  
+}
+.container{
+    width: 90%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 416px;
+    height: 300px;
+    background-color: aqua;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+h4{
+    color: white;
+    width: 400px;
+    padding-bottom: 30px;
+    margin-right: 90px;
+    padding-top: 30px;
+    
+}
+p{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: white;
+}
+
+.box.two{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside{
+    width: 60px;
+    height: 80px;
+    color:grey;
+}
+.box.three{
+    background-color: yellow;
+}
+.box.four{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    background-color: silver;
+    width: 90px;
+    height: 90px;
+}
+.box.five{
+    background-color: blue;
+}
+.box.six{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inbetween{
+    width: 90px;
+    height: 90px;
+    background-color: silver;
+}

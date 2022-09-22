@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+.header{
+    background-color: green;
+    height: 8%;
+}
+.middle{
+    background-color: yellow;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.footer{
+    background-color: red;
+    height: 12%;
+}
+.item1{
+    background-color: purple;
+    grid-column: span 2;
+}
+.item2{
+    background-color: peru;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.one{
+    background-color: lawngreen;
+    background-image: url("./image/balle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    background-color: dimgrey;
+}
+.item3{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.three1{
+    background-color: darkolivegreen;
+}
+.three2{
+    background-color: snow;
+    grid-column: 2/4;
+}
+.three3{
+    background-color: black;
+}
+.three4{
+    background-color: navy;
+}
+.item4{
+    background-color: deeppink;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.four1{
+    background-color: palegreen;
+}
+.four2{
+    background-color:skyblue;
+}
+.four3{
+    background-color: tomato;
+    grid-column: 1/3;
+}
+.item5{
+    background-color: lightskyblue;
+}
